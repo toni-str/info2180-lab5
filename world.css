@@ -1,6 +1,4 @@
 /* Add your own styles */
-
-/* General Body and Layout */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -19,7 +17,7 @@ main {
     border-radius: 4px;
 }
 
-/* Header Styling */
+
 header {
     display: flex;
     background-color: #4A5568; 
@@ -39,14 +37,14 @@ header h1 {
     margin: 0 0 0 15px; 
 }
 
-/* Image Styling (The globe icon) */
+
 header img {
     width: 200px; 
     height: 200px;
     object-fit: contain;
 }
 
-/* Control Area (Input and Button) */
+
 #controls {
     display: flex;
     align-items: center;
@@ -76,16 +74,17 @@ header img {
     transition: background-color 0.3s;
 }
 
-/* Specific button styles*/
+
 #lookup-cities {
-    background-color: #5A67D8; /* Blue for city lookup */
+    background-color: #5A67D8; 
 }
 
 #lookup:hover, #lookup-country:hover, #lookup-cities:hover {
     opacity: 0.9;
 }
 
-/* Result Area and Table Styling */
+
+
 #result {
     margin-top: 30px;
 }
@@ -113,7 +112,7 @@ table td {
 }
 
 table tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Light grey stripe */
+    background-color: #f9f9f9; 
 }
 
 table tbody tr:hover {
